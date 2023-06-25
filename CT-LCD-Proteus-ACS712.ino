@@ -12,7 +12,7 @@ int step = 0;         // initialize variable for set increament for Auto functio
 int inc = 0;          // initialize variable for set increament/decreament for Manual functions
 int ctrl = 3;         // Define control pin = Digital(PWM) output pin 3
 int gate =0;          // Initialize variable for gate voltage
-int Imax = 0;
+float Imax = 0.0;
 
 File FileManual;      // define a variable to open/close file for Manual operation read/write
 File FileAuto;        // define a variable to open/close file for Auto operation read/write
@@ -63,12 +63,20 @@ void updateMenu() {
     case 1:
       lcd.clear();            // erase the whole LCD
       lcd.print(">Set Imax");     // set the selector to position 1
+      if(Imax>0){
+        lcd.setCursor(13, 0);
+        lcd.print(Imax);
+      }
       lcd.setCursor(0, 1);    // select second row to write
       lcd.print(" Auto");
       break;
     case 2:
       lcd.clear();            // erase the whole LCD
       lcd.print(" Set Imax");     // set the selector to position 1
+      if(Imax>0){
+        lcd.setCursor(13, 0);
+        lcd.print(Imax);
+      }
       lcd.setCursor(0, 1);    // select second row to write
       lcd.print(">Auto");
       break;
@@ -102,24 +110,24 @@ void SetImax(){
   ext = false;
   lcd.clear();
   lcd.print("<Imax(0~10)>");
-  lcd.setCursor(14, 0);
+  lcd.setCursor(13, 0);
   lcd.print(Imax);
   lcd.setCursor(0, 1);
   lcd.print("Down => Exit");
   while(!ext){
-    if(checkButton()=='R' & Imax<10){
-      Imax++;
-      lcd.setCursor(14, 0);
+    if(checkButton()=='R' & Imax<10.0){
+      Imax = Imax + 0.5;
+      lcd.setCursor(13, 0);
       lcd.print("  ");
-      lcd.setCursor(14, 0);
+      lcd.setCursor(13, 0);
       lcd.print(Imax);
       while(checkButton()=='R');
       }
-    else if(checkButton()=='L' & Imax>0){
-      Imax--;
-      lcd.setCursor(14, 0);
+    else if(checkButton()=='L' & Imax>0.0){
+      Imax = Imax - 0.5;
+      lcd.setCursor(13, 0);
       lcd.print("  ");
-      lcd.setCursor(14, 0);
+      lcd.setCursor(13, 0);
       lcd.print(Imax);
       while(checkButton()=='L');
       }
@@ -130,10 +138,6 @@ void SetImax(){
 
 void Manual(){
   ext = false;                    // for exiting from while loop
-  //lcd.clear();
-  //lcd.setCursor(0, 1);
-  //lcd.print("Press up/down");
-  //delay(100);
   sub_menu=1;                     // force sub_menu to 1 for update manual function
   updateManual();                 // show the Menu inside Manual
   delay(200);
@@ -195,19 +199,11 @@ void ExecManual(){
       break;
     case 2:
       StartManual();
-      //lcd.clear();
-      //lcd.setCursor(0, 0);
-      //lcd.print("Starting...");
-      //while(checkButton()!="S");
       delay(500);
       break;
     case 3:
       ext = true;
       updateMenu();
-      //lcd.clear();
-      //lcd.setCursor(0, 0);
-      //lcd.print("Exiting...");
-      //delay(200);
       break;
   }
 }
@@ -320,7 +316,7 @@ void ExecAuto(){
 void SetStep(){
   step = 0;
   lcd.clear();
-  lcd.print(">Step(A)");
+  lcd.print(">Step");
   lcd.setCursor(13, 0);
   lcd.print("</>");
   while(checkButton()!='D'){
@@ -357,7 +353,7 @@ void StartAuto(){
   float I2=10*(U2-2.5);                                  // this is an approximate formula to convert the voltage to equivalent current
   float I3=10*(U3-2.5);
   lcd.clear();
-  while(key != 'S'){                                      // unless pressing 'S', while loop continues
+  while(key != 'D'){                                      // unless pressing 'S', while loop continues
     lcd.setCursor(0,0);
     lcd.print("Gate:"+ String((float)gate*5/256));        // to show current gate voltage
     lcd.setCursor(0,1);
@@ -403,12 +399,14 @@ void StartAuto(){
       FileAuto.close();
     }    
     
-    delay(2000);                                        // this delay to get stable value of the reading
+    delay(500);                                        // this delay to get stable value of the reading
     if(165%step!=0 && gate==(255-165%step)){            // to keep last gate value equal to 255 
       gate=255-step;
       }
     else if(gate==255){x=0;}                            // exit loop after last gate value
-		else if(checkButton()=='S'){key = 'S';}             // exit operation if 'S' button pushed
+		else if(checkButton()=='D'){key = 'D';}             // exit operation if 'S' button pushed
+    analogWrite(ctrl, 0);
+    delay(500);
 	}
 	gate=0;                                               // reset gate value
   analogWrite(ctrl, gate);                              // write gate value to control pin
@@ -416,7 +414,7 @@ void StartAuto(){
   //lcd.print("I2:"+ String(I2) + " I3:" + String(I3));
   FileAuto.close();
   Serial.println("Writing completed on Auto.txt");
-  key = 'S';
+  key = 'D';
   }
 }
 
@@ -437,16 +435,13 @@ void StartManual(){
     Serial.println("error opening Manual.txt");
     SD.remove("Manual.txt");  
   }
-  while(key != 'S'){
+  while(key != 'D'){
     lcd.setCursor(0,0);
     lcd.print("Gate:"+ String((float)gate*5/256));
-    //lcd.setCursor(9,0);
-    //lcd.print("Sl-Ex");
-    //delay(100);
     lcd.setCursor(0,1);
     lcd.print("I2:"+ String(I2) + "  I3:" + String(I3));
     lcd.setCursor(11,0);
-    lcd.print("  </>");
+    lcd.print("Dn/Ex");
     delay(100);
     if(checkButton()=='R'){
       gate=gate+inc;
@@ -462,12 +457,12 @@ void StartManual(){
         analogWrite(ctrl, gate);
         FileManual.close();
         Serial.println("Writing completed on Manual.txt");
-        key = 'S';}
+        key = 'D';}
       lcd.clear();
       lcd.setCursor(0,0);
       lcd.print("Gate:"+ String((float)gate*5/256));
       lcd.setCursor(11,0);
-      lcd.print("Sl-Ex");
+      lcd.print("Dwn-Ex");
       lcd.setCursor(0,1);
       lcd.print("I2:"+ String(I2) + " I3:" + String(I3));
       if(FileManual){
@@ -478,7 +473,7 @@ void StartManual(){
         FileManual.close();
       }
       delay(100);
-      //while(checkButton()=='R');
+      analogWrite(ctrl, 0);
     }
     else if(checkButton()=='L'){
       gate=gate-inc;
@@ -504,15 +499,15 @@ void StartManual(){
         FileManual.close();
       }
       delay(100);
-      //while(checkButton()=='L');
+      analogWrite(ctrl, 0);
     }
-    else if(checkButton()=='S'){
+    else if(checkButton()=='D'){
       gate=0;
       analogWrite(ctrl, gate);
 	    lcd.print("I2:"+ String(I2) + " I3:" + String(I3));
       FileManual.close();
       Serial.println("Writing completed on Manual.txt");
-      key = 'S';
+      key = 'D';
     }
   }
 }
