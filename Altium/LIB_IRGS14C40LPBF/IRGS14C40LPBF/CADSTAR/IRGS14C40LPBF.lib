@@ -1,0 +1,17 @@
+.IRGS14C40LPBF :1 ;International Rectifier IRGS14C40LPBF IGBT, 20 A 430 V, 3-Pin TO-263AB
+IRF5305SPBF
+*STM Q
+*NGS
+*PLB 1="G" 2="C" 3="E"
+*MXP 3
+*DFN IRGS14C40LPBF
+~!Manufacturer_Name (Infineon)
+~!Manufacturer_Part_Number (IRGS14C40LPBF)
+~!Mouser Part Number (942-IRGS14C40LPBF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRGS14C40LPBF?qs=XhjApVeIGIQ%252BRl3A6Rwg0Q%3D%3D)
+~!Arrow Part Number (IRGS14C40LPBF)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/irgs14c40lpbf/infineon-technologies-ag)
+~!Link Datasheet (https://docs.rs-online.com/9fd5/0900766b80791357.pdf)
+~!Height (4.83mm)
+IRGS14C40LPBF
+1.1!U 2.1!U 3.1!U 

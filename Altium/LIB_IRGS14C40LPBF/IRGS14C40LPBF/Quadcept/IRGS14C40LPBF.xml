@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/259252/1521872/2.50/3/4/Transistor IGBT/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="r381_208" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="81.889763779527" height="150" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="89.763779527558" height="157.87401574803" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="81.889763779527" height="150" />
+  </padstyle>
+  <padstyle name="r1143_889" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="350" height="449.99999999999" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="357.87401574803" height="457.87401574803" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="350" height="449.99999999999" />
+  </padstyle>
+  <footprint name="IRF5305SPBF" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="r381_208" originx="-99.999999999999" originy="-449.99999999999" rotation="0" />
+    <pcbpin number="2" name="2" style="r1143_889" originx="0" originy="0" rotation="90" />
+    <pcbpin number="3" name="3" style="r381_208" originx="99.999999999999" originy="-449.99999999999" rotation="0" />
+    <line layer="TOP_ASSEMBLY" originx="-200" originy="0" endx="200" endy="0" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="200" originy="0" endx="200" endy="-357.48031496063" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="200" originy="-357.48031496063" endx="-200" endy="-357.48031496063" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="-200" originy="-357.48031496063" endx="-200" endy="0" width="7.8740157480314" />
+    <line layer="TOP_PLACE_BOUND" originx="-264.37007874015" originy="214.37007874015" endx="264.37007874015" endy="214.37007874015" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="264.37007874015" originy="214.37007874015" endx="264.37007874015" endy="-576.7716535433" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="264.37007874015" originy="-576.7716535433" endx="-264.37007874015" endy="-576.7716535433" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-264.37007874015" originy="-576.7716535433" endx="-264.37007874015" endy="214.37007874015" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-200" originy="-188.97637795275" endx="-200" endy="-357.48031496063" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-200" originy="-357.48031496063" endx="200" endy="-357.48031496063" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="200" originy="-357.48031496063" endx="200" endy="-188.97637795275" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-110.23622047244" originy="-535.43307086614" endx="-110.23622047244" endy="-535.43307086614" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-108.26771653543" originy="-535.43307086614" startangle="180.0" sweepangle="180.0" radius="1.9685039370078" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-106.29921259842" originy="-535.43307086614" endx="-106.29921259842" endy="-535.43307086614" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-108.26771653543" originy="-535.43307086614" startangle=".0" sweepangle="180.0" radius="1.9685039370078" width="3.9370078740157" />
+  </footprint>
+  <symbol name="IRGS14C40LPBF" originx="0" originy="0">
+    <line originx="300" originy="-40" endx="300" endy="-100" width="0" />
+    <line originx="300" originy="140" endx="300" endy="200" width="0" />
+    <line originx="100" originy="0" endx="200" endy="0" width="0" />
+    <line originx="200" originy="100" endx="200" endy="0" width="0" />
+    <line originx="230" originy="-16" endx="230" endy="16" width="0" />
+    <line originx="320" originy="70" endx="360" endy="70" width="0" />
+    <line originx="230" originy="0" endx="300" endy="-40" width="0" />
+    <line originx="300" originy="140" endx="230" endy="100" width="0" />
+    <line originx="230" originy="50" endx="300" endy="10" width="0" />
+    <line originx="340" originy="70" endx="340" endy="160" width="0" />
+    <line originx="300" originy="160" endx="340" endy="160" width="0" />
+    <line originx="340" originy="30" endx="340" endy="-60" width="0" />
+    <line originx="300" originy="-60" endx="340" endy="-60" width="0" />
+    <line originx="230" originy="34" endx="230" endy="66" width="0" />
+    <line originx="230" originy="86" endx="230" endy="118" width="0" />
+    <line originx="230" originy="84" endx="230" endy="116" width="0" />
+    <arc originx="250" originy="50" startangle="180" sweepangle="180" radius="150" width="0" />
+    <arc originx="250" originy="50" startangle="180" sweepangle="-180" radius="150" width="0" />
+    <arc originx="300" originy="160" startangle="180" sweepangle="180" radius="10" width="0" />
+    <arc originx="300" originy="160" startangle="180" sweepangle="-180" radius="10" width="0" />
+    <arc originx="300" originy="-60" startangle="180" sweepangle="180" radius="10" width="0" />
+    <arc originx="300" originy="-60" startangle="180" sweepangle="-180" radius="10" width="0" />
+    <sympin number="1" originx="100" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="0" originy="-20" style="Default" rotation="0" justify="upperleft" flipped="False" hidden="True" data="G" />
+      <text name="pindes" originx="80" originy="10" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="300" originy="200" rotation="90" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="320" originy="300" style="Default" rotation="90" justify="upperleft" flipped="False" hidden="True" data="C" />
+      <text name="pindes" originx="280" originy="300" style="Default" rotation="90" justify="upperright" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <sympin number="3" originx="300" originy="-100" rotation="270" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="320" originy="-200" style="Default" rotation="90" justify="lowerleft" flipped="False" hidden="True" data="E" />
+      <text name="pindes" originx="280" originy="-200" style="Default" rotation="90" justify="lowerright" flipped="False" hidden="False" data="3" />
+    </sympin>
+    <polygon type="polygon">
+      <point x="340" y="70" />
+      <point x="320" y="30" />
+      <point x="360" y="30" />
+    </polygon>
+    <polygon type="polygon">
+      <point x="260" y="-30" />
+      <point x="270" y="-10" />
+      <point x="300" y="-40" />
+    </polygon>
+    <polygon type="polygon">
+      <point x="270" y="110" />
+      <point x="260" y="130" />
+      <point x="230" y="100" />
+    </polygon>
+  </symbol>
+  <component name="IRGS14C40LPBF" designatorprefix="Q" height="190.15748031496" footprint="IRF5305SPBF">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="G" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="C" />
+    <comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="E" />
+    <attached_symbol gate="1" name="IRGS14C40LPBF" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <pinmap designator="3" footprintpin="3" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://docs.rs-online.com/9fd5/0900766b80791357.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="International Rectifier IRGS14C40LPBF IGBT, 20 A 430 V, 3-Pin TO-263AB" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Infineon" />
+    <text name="Manufacturer_Part_Number" originx="450" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="IRGS14C40LPBF" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="942-IRGS14C40LPBF" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRGS14C40LPBF?qs=XhjApVeIGIQ%252BRl3A6Rwg0Q%3D%3D" />
+    <text name="Arrow Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="IRGS14C40LPBF" />
+    <text name="Arrow Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.arrow.com/en/products/irgs14c40lpbf/infineon-technologies-ag" />
+  </component>
+</quadcept_library>

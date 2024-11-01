@@ -1,0 +1,153 @@
+Added Component: Designator=Arduino Uno(ARDUINO UNO)
+Added Component: Designator=C1(103MMR630K)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.com/datasheet/2/88/MMR_series-553002.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "7.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Cornell Dubilier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "103MMR630K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "598-103MMR630K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/103MMR630K?qs=3tP%252BN51vMXcfth17WDhGLA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=C2(103MMR630K)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.com/datasheet/2/88/MMR_series-553002.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "7.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Cornell Dubilier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "103MMR630K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "598-103MMR630K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/103MMR630K?qs=3tP%252BN51vMXcfth17WDhGLA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPPRD500W60D1000H1700)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://content.kemet.com/datasheets/KEM_A4005_ESH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "17mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ESH476M100AH2AA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "80-ESH476M100AH2AA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/KEMET/ESH476M100AH2AA?qs=T1%252BhWNR%252Bpa0giKIpYFuU0A%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=J1-Sensor 1(DIPS762W60P254L1016H525Q8N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "DILB8P-223TLF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/dilb8p-223tlf/amphenol-fci?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10052485.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "5.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Amphenol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "DILB8P-223TLF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "649-DILB8P223TLF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/DILB8P-223TLF?qs=gISD9T5QW%2FAiSV%252BbCwW%2Fog%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=J2-Sensor 2(DIPS762W60P254L1016H525Q8N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "DILB8P-223TLF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/dilb8p-223tlf/amphenol-fci?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10052485.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "5.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Amphenol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "DILB8P-223TLF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "649-DILB8P223TLF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/DILB8P-223TLF?qs=gISD9T5QW%2FAiSV%252BbCwW%2Fog%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=J-5V(2828372)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "282837-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/282837-2/te-connectivity?utm_currency=USD&region=europe"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data%20Sheet&DocLang=English&PartCntxt=282837-2&DocFormat=pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "10.3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "282837-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "571-2828372"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282837-2?qs=A%252Bip%252BNCYi6O2H0NGWOeAxg%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=J-12V(2828372)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "282837-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/282837-2/te-connectivity?utm_currency=USD&region=europe"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data%20Sheet&DocLang=English&PartCntxt=282837-2&DocFormat=pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "10.3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "282837-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "571-2828372"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282837-2?qs=A%252Bip%252BNCYi6O2H0NGWOeAxg%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=J-Load(2828372)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "282837-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/282837-2/te-connectivity?utm_currency=USD&region=europe"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data%20Sheet&DocLang=English&PartCntxt=282837-2&DocFormat=pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "10.3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "282837-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "571-2828372"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282837-2?qs=A%252Bip%252BNCYi6O2H0NGWOeAxg%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=J-SD_Module(RHDR6W51P0X254_1X6_1524X254X419P)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "319-10-106-00-006000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/319-10-106-00-006000/mill-max"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/1/319-10-106-00-006000.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "4.191mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Mill-Max"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "319-10-106-00-006000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "575-3191010600006000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Mill-Max/319-10-106-00-006000?qs=493kPxzlxfJv4%252BKSTaxzuw%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=Q1(IRF5305SPBF)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "IRGS14C40LPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/irgs14c40lpbf/infineon-technologies-ag"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://docs.rs-online.com/9fd5/0900766b80791357.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "4.83mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "IRGS14C40LPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "942-IRGS14C40LPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRGS14C40LPBF?qs=XhjApVeIGIQ%252BRl3A6Rwg0Q%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=Arduino Uno-A2
+Added Pin To Net: NetName=+5 Pin=Arduino Uno-Vin
+Added Pin To Net: NetName=+5 Pin=J1-Sensor 1-8
+Added Pin To Net: NetName=+5 Pin=J2-Sensor 2-7
+Added Pin To Net: NetName=+5 Pin=J2-Sensor 2-8
+Added Pin To Net: NetName=+5 Pin=J-5V-1
+Added Pin To Net: NetName=+5 Pin=J-SD_Module-2
+Added Net: Name=+5
+Added Pin To Net: NetName=GND Pin=Arduino Uno-GND1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=J1-Sensor 1-5
+Added Pin To Net: NetName=GND Pin=J2-Sensor 2-3
+Added Pin To Net: NetName=GND Pin=J2-Sensor 2-4
+Added Pin To Net: NetName=GND Pin=J2-Sensor 2-5
+Added Pin To Net: NetName=GND Pin=J-5V-2
+Added Pin To Net: NetName=GND Pin=J-SD_Module-1
+Added Net: Name=GND
+Added Pin To Net: NetName=NetArduino Uno_3 Pin=Arduino Uno-3
+Added Pin To Net: NetName=NetArduino Uno_3 Pin=C?-1
+Added Pin To Net: NetName=NetArduino Uno_3 Pin=Q1-1
+Added Net: Name=NetArduino Uno_3
+Added Pin To Net: NetName=NetArduino Uno_10 Pin=Arduino Uno-10
+Added Pin To Net: NetName=NetArduino Uno_10 Pin=J-SD_Module-6
+Added Net: Name=NetArduino Uno_10
+Added Pin To Net: NetName=NetArduino Uno_11 Pin=Arduino Uno-11
+Added Pin To Net: NetName=NetArduino Uno_11 Pin=J-SD_Module-4
+Added Net: Name=NetArduino Uno_11
+Added Pin To Net: NetName=NetArduino Uno_12 Pin=Arduino Uno-12
+Added Pin To Net: NetName=NetArduino Uno_12 Pin=J-SD_Module-3
+Added Net: Name=NetArduino Uno_12
+Added Pin To Net: NetName=NetArduino Uno_13 Pin=Arduino Uno-13
+Added Pin To Net: NetName=NetArduino Uno_13 Pin=J-SD_Module-5
+Added Net: Name=NetArduino Uno_13
+Added Pin To Net: NetName=NetArduino Uno_A1 Pin=Arduino Uno-A1
+Added Pin To Net: NetName=NetArduino Uno_A1 Pin=J1-Sensor 1-7
+Added Net: Name=NetArduino Uno_A1
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=NetC1_1 Pin=J2-Sensor 2-6
+Added Net: Name=NetC1_1
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=NetC2_1 Pin=J1-Sensor 1-6
+Added Net: Name=NetC2_1
+Added Pin To Net: NetName=NetJ1-Sensor 1_1 Pin=J1-Sensor 1-1
+Added Pin To Net: NetName=NetJ1-Sensor 1_1 Pin=J1-Sensor 1-2
+Added Pin To Net: NetName=NetJ1-Sensor 1_1 Pin=Q1-3
+Added Net: Name=NetJ1-Sensor 1_1
+Added Pin To Net: NetName=NetJ1-Sensor 1_3 Pin=J1-Sensor 1-3
+Added Pin To Net: NetName=NetJ1-Sensor 1_3 Pin=J1-Sensor 1-4
+Added Pin To Net: NetName=NetJ1-Sensor 1_3 Pin=J2-Sensor 2-1
+Added Pin To Net: NetName=NetJ1-Sensor 1_3 Pin=J2-Sensor 2-2
+Added Net: Name=NetJ1-Sensor 1_3
+Added Pin To Net: NetName=NetJ-12V_2 Pin=J-12V-2
+Added Pin To Net: NetName=NetJ-12V_2 Pin=J-Load-1
+Added Net: Name=NetJ-12V_2
+Added Pin To Net: NetName=NetJ-Load_2 Pin=J-Load-2
+Added Pin To Net: NetName=NetJ-Load_2 Pin=Q1-2
+Added Net: Name=NetJ-Load_2
+Added Class: Name=hall_sensor_sch
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "IRGS14C40LPBF"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-05-16-21:51:55)
+    (mountForm default
+        (footprintRef "IRF5305SPBF")
+        (spec "System")
+    )
+)

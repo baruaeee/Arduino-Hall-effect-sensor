@@ -1,0 +1,306 @@
+
+(EDIF
+  (rename &IRGS14C40LPBF "IRGS14C40LPBF")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2024 10 31 21 34 59)
+      (dataOrigin "259252/1521872/2.50/3/4/Transistor IGBT")
+      (program "SamacSys ECAD Model IRGS14C40LPBF"
+        (version "4.2"))))
+  (library
+  (rename &IRGS14C40LPBF "IRGS14C40LPBF")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &IRGS14C40LPBF "IRGS14C40LPBF")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "Q")
+          (property (rename PACKAGENAME "PackageName") (string "IRGS14C40LPBF"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "IRF5305SPBF"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Infineon"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "IRGS14C40LPBF"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "942-IRGS14C40LPBF"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRGS14C40LPBF?qs=XhjApVeIGIQ%252BRl3A6Rwg0Q%3D%3D"))
+          (property (rename &Arrow_Part_Number "Arrow Part Number") (string "IRGS14C40LPBF"))
+          (property (rename &Arrow_Price_Stock "Arrow Price/Stock") (string "https://www.arrow.com/en/products/irgs14c40lpbf/infineon-technologies-ag"))
+          (property (rename &Description "Description") (string "International Rectifier IRGS14C40LPBF IGBT, 20 A 430 V, 3-Pin TO-263AB"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://docs.rs-online.com/9fd5/0900766b80791357.pdf"))
+          (property (rename &Height "Height") (string "4.83 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "IRGS14C40LPBF"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &G "G")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &C "C")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &E "E")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &G)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -100 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -100 -200))))
+            )
+            (portImplementation
+              (name &C)
+              (figure PIN (path (pointList (pt 200 100) (pt 200 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 200 100))))
+            )
+            (portImplementation
+              (name &E)
+              (figure PIN (path (pointList (pt 200 -400) (pt 200 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt 200 -400))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -240)
+                  (pt 200 -300)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -60)
+                  (pt 200 0)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 -200)
+                  (pt 100 -200)
+                  (pt 100 -100)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 130 -216)
+                  (pt 130 -184)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 220 -130)
+                  (pt 260 -130)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 130 -200)
+                  (pt 200 -240)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -60)
+                  (pt 130 -100)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 130 -150)
+                  (pt 200 -190)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 240 -130)
+                  (pt 240 -40)
+                  (pt 200 -40)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 240 -170)
+                  (pt 240 -260)
+                  (pt 200 -260)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 130 -166)
+                  (pt 130 -134)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 130 -114)
+                  (pt 130 -82)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 130 -116)
+                  (pt 130 -84)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (circle
+                (pt 0 -150)
+                (pt 300 -150)
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 15))
+              (circle
+                (pt 190 -40)
+                (pt 210 -40)
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 15))
+              (circle
+                (pt 190 -260)
+                (pt 210 -260)
+              )
+            )
+              (figure GRAPHIC
+                (figureGroupOverride GRAPHIC
+	              (fillPattern 1 1
+                    (boolean
+                      (boolean
+                        (true)
+                      )
+                    )
+                  )
+                )
+              (polygon
+                (pointList
+                  (pt 240 -130)
+                  (pt 220 -170)
+                  (pt 260 -170)
+                  (pt 240 -130)
+                )
+              )
+            )
+              (figure GRAPHIC
+                (figureGroupOverride GRAPHIC
+	              (fillPattern 1 1
+                    (boolean
+                      (boolean
+                        (true)
+                      )
+                    )
+                  )
+                )
+              (polygon
+                (pointList
+                  (pt 160 -230)
+                  (pt 170 -210)
+                  (pt 200 -240)
+                  (pt 160 -230)
+                )
+              )
+            )
+              (figure GRAPHIC
+                (figureGroupOverride GRAPHIC
+	              (fillPattern 1 1
+                    (boolean
+                      (boolean
+                        (true)
+                      )
+                    )
+                  )
+                )
+              (polygon
+                (pointList
+                  (pt 170 -90)
+                  (pt 160 -70)
+                  (pt 130 -100)
+                  (pt 170 -90)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 350 -170))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 350 -270))))
+          )
+        )
+      )
+    )
+  )
+)

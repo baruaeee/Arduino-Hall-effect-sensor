@@ -1,0 +1,9 @@
+Manufacturer=Infineon
+PartNumber=IRGS14C40LPBF
+PartCategory=Transistor IGBT
+PackageCategory=Other
+PinCount=3
+Version=4.2
+Released=2016-12-12 16:50:57
+Downloaded=2024-10-31 21:34:59
+3D=N

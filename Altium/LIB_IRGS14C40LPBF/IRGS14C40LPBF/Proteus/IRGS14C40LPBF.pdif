@@ -1,0 +1,183 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "IRGS14C40LPBF"
+   (description "International Rectifier IRGS14C40LPBF IGBT, 20 A 430 V, 3-Pin TO-263AB")
+   (family "TRX")
+   (package "IRF5305SPBF")
+   (attribute "Datasheet Link" "https://docs.rs-online.com/9fd5/0900766b80791357.pdf")
+   (attribute "Geometry.Height" "4.83mm")
+   (attribute "Manufacturer_Name" "Infineon")
+   (attribute "Manufacturer_Part_Number" "IRGS14C40LPBF")
+   (attribute "Mouser Part Number" "942-IRGS14C40LPBF")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRGS14C40LPBF?qs=XhjApVeIGIQ%252BRl3A6Rwg0Q%3D%3D")
+   (attribute "Arrow Part Number" "IRGS14C40LPBF")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/irgs14c40lpbf/infineon-technologies-ag")
+   (gate
+    (symbol "IRGS14C40LPBF")
+    (pin "G" 1 PS)
+    (pin "C" 2 PS)
+    (pin "E" 3 PS)
+   )
+  )
+  (symbol "IRGS14C40LPBF"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (circle (pt 400 50) (pt 100 50))
+   )
+   (graphic
+    (stroke 15)
+    (circle (pt 310 160) (pt 290 160))
+   )
+   (graphic
+    (stroke 15)
+    (circle (pt 310 -60) (pt 290 -60))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 -40) (pt 300 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 140) (pt 300 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0) (pt 200 100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 -16) (pt 230 16))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 320 70) (pt 360 70))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 0) (pt 300 -40))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 140) (pt 230 100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 50) (pt 300 10))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 340 70) (pt 340 160) (pt 300 160))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 340 30) (pt 340 -60) (pt 300 -60))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 34) (pt 230 66))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 86) (pt 230 118))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 84) (pt 230 116))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 340 70) (pt 320 30) (pt 360 30) (pt 340 70))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 260 -30) (pt 270 -10) (pt 300 -40) (pt 260 -30))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 270 110) (pt 260 130) (pt 230 100) (pt 270 110))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 80 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 300 300) (rot 90) (mir X) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 300 -200) (rot 90) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "IRF5305SPBF"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -5.08 0)
+      (pt 5.08 0)
+      (pt 5.08 -9.08)
+      (pt -5.08 -9.08)
+      (pt -5.08 0))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -6.715 5.445)
+      (pt 6.715 5.445)
+      (pt 6.715 -14.65)
+      (pt -6.715 -14.65)
+      (pt -6.715 5.445))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -5.08 -4.8)
+      (pt -5.08 -9.08)
+      (pt 5.08 -9.08)
+      (pt 5.08 -4.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.8 -13.6)
+      (arc (pt -2.800 -13.600) (pt -2.800 -13.650) (pt -2.700 -13.550) (start 180.0) (sweep 180.0))
+      (pt -2.7 -13.6)
+      (arc (pt -2.700 -13.600) (pt -2.800 -13.650) (pt -2.700 -13.550) (start 180.0) (sweep .0))
+      (pt -2.8 -13.6))))
+   (leg 1 (pt -2.540 -11.430) (padstack 0))
+   (leg 2 (pt 0.000 0.000) (padstack 2))
+   (leg 3 (pt 2.540 -11.430) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 2.080 3.810 0 0 90.000))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 8.890 11.430 0 0 0.000))
+   )
+  )
+ )
+)
